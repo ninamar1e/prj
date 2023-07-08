@@ -1,3 +1,16 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+  <ion-menu contentId="content1" side="start">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title> Ku Chi Tea </ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <ion-button [routerLink]="['/about']" fill="clear" color="medium" size="medium"> About Us </ion-button>
+
+    </ion-content>
+  
+    </ion-menu>
+    <ion-router-outlet id="content1" main></ion-router-outlet>
+  </ion-app>
