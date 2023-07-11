@@ -1,3 +1,4 @@
+<ion-content>
 <ion-header [translucent]="true">
   <ion-toolbar>
      <ion-buttons slot="start">
@@ -9,5 +10,78 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-<ion-img src="assets/KU CHI TEA MENU/logo.jpg" alt="unique" ></ion-img>
+<ion-searchbar></ion-searchbar>
+
+<ion-img src="assets/KU CHI TEA MENU/logo.jpg" alt="unique"></ion-img>
+  <ion-toolbar>
+    <ion-item-divider>
+      <ion-label> <ion-icon name="ribbon"></ion-icon> Top Restaurant - Asian - Fast Food - Beverages - Meat 
+        <br> - Chicken  </ion-label>
+    </ion-item-divider>
+  </ion-toolbar>
+  <ion-item-group>
+
+<ion-card color="light">
+  <ion-card-header>
+    <ion-card-title> Barkada Pack </ion-card-title>
+    <ion-grid>
+      <ion-row>
+        <ion-col><img src="assets/KU CHI TEA MENU/BARKADA PACK/crispycoatedfries.png" alt="fries-logo"></ion-col>
+        <ion-col><img src="assets/KU CHI TEA MENU/BARKADA PACK/steamedgyoza.png" alt="gyoza-logo"></ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-button (click)="clickonBarkada()" color="medium"> Select </ion-button>
+  </ion-card-header>
+</ion-card>
+
+<ion-card color="light">
+  <ion-card-header>
+    <ion-card-title> Frappuccino </ion-card-title>
+    <ion-grid>
+      <ion-row>
+        <ion-col><img src="assets/KU CHI TEA MENU/FRAPPUCCINO/butterscotchcoffee.png" alt="butterscotch-logo"></ion-col>
+        <ion-col><img src="assets/KU CHI TEA MENU/FRAPPUCCINO/darkmocha.png" alt="darkmocha-logo"></ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-button (click)="clickonFrappuccino()" color="medium"> Select </ion-button>
+  </ion-card-header>
+</ion-card>
+
+<ion-card color="light">
+  <ion-card-header>
+    <ion-card-title> Ku Chi Snacks </ion-card-title>
+    <ion-grid>
+      <ion-row>
+        <ion-col><img src="assets/KU CHI TEA MENU/KU CHI SNACKS/kuchibeefquesadilla.png" alt="quesadilla-logo"></ion-col>
+        <ion-col><img src="assets/KU CHI TEA MENU/KU CHI SNACKS/meatyfries.png" alt="meatyfries-logo"></ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-button (click)="clickonKuchi()" color="medium"> Select </ion-button>
+  </ion-card-header>
+</ion-card>
+
+<ion-card color="light">
+  <ion-card-header>
+    <ion-card-title> Ku Chi Premier </ion-card-title>
+    <ion-grid>
+      <ion-row>
+        <ion-col><img src="assets/KU CHI TEA MENU/KU CHI PREMIER/kuchibrownsugarcreme.png" alt="brownsugar-logo"></ion-col>
+        <ion-col><img src="assets/KU CHI TEA MENU/KU CHI PREMIER/oreomatchacreme.png" alt="oreo-logo"></ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-button (click)="clickonPremier()" color="medium"> Select </ion-button>
+  </ion-card-header>
+</ion-card>
+
+<ion-card color="light">
+  <ion-card-header>
+    <ion-card-title> Hot Drinks</ion-card-title>
+    <ion-grid>
+      <ion-row>
+        <ion-col><img src="assets/KU CHI TEA MENU/HOT DRINKS/brownsugarlatte.png" alt="brownsugarlatte-logo"></ion-col>
+        <ion-col><img src="assets/KU CHI TEA MENU/HOT DRINKS/cappuccino.png" alt="cappucino-logo"></ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-button (click)="clickonHot()" color="medium"> Select </ion-button>
+  </ion-card-header>
+</ion-card>

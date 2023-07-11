@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title> Snacks Extras </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+    <ion-content class="ion-padding">
+      <ion-toolbar>
+        <ion-item-divider>
+          <h4> Select up to 1 (OPTIONAL) </h4>
+        </ion-item-divider>
+      </ion-toolbar>
+      <ion-item-group>
+
+        <ion-card>
+          <ion-card-header>
+            <ion-list>
+              <ion-item>
+                <ion-checkbox justify="space-between">Ketchup<ion-card-subtitle>PHP 8</ion-card-subtitle></ion-checkbox>
+                
+              </ion-item>
+              <ion-item>
+                <ion-checkbox justify="space-between">Toyomansi<ion-card-subtitle>PHP 8</ion-card-subtitle></ion-checkbox>
+              </ion-item>
+              <ion-item>
+                <ion-checkbox justify="space-between">Tomato Salsa Dip<ion-card-subtitle>PHP 12</ion-card-subtitle></ion-checkbox>
+              </ion-item>
+              <ion-item>
+                <ion-checkbox justify="space-between">Siopoi Sause<ion-card-subtitle>PHP 8</ion-card-subtitle></ion-checkbox>
+              </ion-item>
+              <ion-item>
+                <ion-checkbox justify="space-between">Chili Oil<ion-card-subtitle>PHP 8</ion-card-subtitle></ion-checkbox>
+              </ion-item>
+              <ion-item>
+                <ion-checkbox justify="space-between">Cheese Dip<ion-card-subtitle>PHP 16</ion-card-subtitle></ion-checkbox>
+              </ion-item>
+              <ion-item>
+                <ion-checkbox justify="space-between">Mayo Dip<ion-card-subtitle>PHP 16</ion-card-subtitle></ion-checkbox>
+              </ion-item>
+            </ion-list>
+          </ion-card-header>
+        </ion-card>
+
+        <ion-tab-bar slot="bottom">
+        <ion-col>  
+          <ion-button (click)="onCartClick()" color="warning">Cart
+            <ion-icon slot="start" name="cart"></ion-icon>
+          </ion-button> 
+        </ion-col>
+        </ion-tab-bar>

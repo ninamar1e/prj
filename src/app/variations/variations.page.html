@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title> Select Variation </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+    <ion-content class="ion-padding">
+      <ion-toolbar>
+        <ion-item-divider>
+          <h4> Required to Select Varition </h4>
+        </ion-item-divider>
+      </ion-toolbar>
+      <ion-item-group>
+
+        <ion-card>
+          <ion-card-header>
+            <ion-list>
+              <ion-item>
+                <ion-checkbox justify="space-between">Medium<ion-card-subtitle>PHP 99</ion-card-subtitle></ion-checkbox>
+                
+              </ion-item>
+              <ion-item>
+                <ion-checkbox justify="space-between">Large<ion-card-subtitle>PHP 109</ion-card-subtitle></ion-checkbox>
+              </ion-item>
+            </ion-list>
+          </ion-card-header>
+        </ion-card>
+
+              <ion-tab-bar slot="bottom">
+                <ion-col>  
+                  <ion-button (click)="onCartClick()" color="warning">Cart
+                    <ion-icon slot="start" name="cart"></ion-icon>
+                  </ion-button> 
+                </ion-col>
+                </ion-tab-bar>
+                

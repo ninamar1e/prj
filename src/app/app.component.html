@@ -2,15 +2,19 @@
   <ion-menu contentId="content1" side="start">
     <ion-header>
       <ion-toolbar>
-        <ion-title> Ku Chi Tea </ion-title>
+        <ion-title> Menu </ion-title>
       </ion-toolbar>
     </ion-header>
 
     <ion-content>
-      <ion-button [routerLink]="['/about']" fill="clear" color="medium" size="medium"> About Us </ion-button>
-
+      <ion-button [routerLink]="['/profile']" fill="clear" color="dark" size="medium"> Profile </ion-button>
+      <br>
+      <ion-button [routerLink]="['/about']" fill="clear" color="dark" size="medium"> About Us </ion-button>
+      <br>
+      <ion-button [routerLink]="['/registration']" fill="clear" color="dark" size="medium"> Sign Up </ion-button>
+      <br>
+      <ion-button [routerLink]="['/opening']" fill="clear" color="dark" size="medium"> Logout </ion-button>
     </ion-content>
-  
     </ion-menu>
     <ion-router-outlet id="content1" main></ion-router-outlet>
   </ion-app>

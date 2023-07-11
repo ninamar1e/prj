@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>User Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-toolbar>
+    <ion-item-divider>
+      <ion-label> Personal Information </ion-label>
+    </ion-item-divider>
+  </ion-toolbar>
+  <ion-item-group>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Name</ion-card-title>
+        <ion-card-subtitle>Juan Dela Cruz</ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Email</ion-card-title>
+        <ion-card-subtitle>juandelacruz@gmail.com</ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Number</ion-card-title>
+        <ion-card-subtitle>(0990) 889 6789</ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+
+    <ion-tab-bar slot="bottom">
+      <ion-button (click)="clickonSettings()"  float-right>Settings</ion-button>
+        <ion-button (click)="logoutAction()"  float-right>Logout</ion-button>
+      </ion-tab-bar>
